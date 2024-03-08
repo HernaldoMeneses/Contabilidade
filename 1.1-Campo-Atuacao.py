@@ -37,10 +37,10 @@ class Topico:
         self.frases = new_frases
 
     def imprimir_informacoes(self):
-        print(f"Tema: {self.tema}, \n Tese: {self.tese}")
-        print(f"Solution: {self.solution}")
-        print(f"Brain_Storm: {self.brain_storm}")
-        print(f"Frases: {self.frases}")
+        print(f"\nTema: {self.tema},\n\tTese: {self.tese}")
+        print(f"\t\tSolution: {self.solution}")
+        print(f"\nBrain_Storm: {self.brain_storm}\n")
+        #print(f"Frases: {self.frases}")
         cout =1
         for i in (self.frases):
             print(f"Frase: {cout} {i}")
@@ -48,10 +48,32 @@ class Topico:
 
 # Exemplo de uso da classe
 tema_ = 'Tema - Campo de atuação da Contabilidade'
-tese_ = 'Tese - '
-solution_ = 'Solution - '
+tese_ = 'Tese - O campo de atuação da Contabilidade é Muito Amplo'
+solution_ = 'Solution - Desenvolver a noção de contabilidade atravez da experiência fornecida e vivida pelas empresas - Finalidades Lucrativas'
 brain_storm_ = [
-    'Word1','Word2']
+    'Ciência social aplicada',
+    'Captar',
+    'Registrar',
+    'Acumular',
+    'Resumir',
+    'Interpretar',
+    'Fenômenos Patrimonias',
+    'Fenômenos Financeiros',
+    'Fenômenos Econômicos',
+    'Entidades',
+    'Lucratividade',
+    'Empresas',
+    'Direito Público',
+    'Estado',
+    'Município',
+    'União',
+    'Autarquia',
+    'Método Contábil',
+    'Capitalismo',
+    'Comércio',
+    'Indústria',
+    'Partidadas Dobradas',
+    'Controle']
 frases_ = [
     'frase1','frase2']
 topic1 = Topico(
